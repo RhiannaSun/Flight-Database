@@ -1,3 +1,5 @@
+#  Constructed the relational tables based on the logical data model 
+
 DROP TABLE IF EXISTS Flights;
 DROP TABLE IF EXISTS Carriers;
 DROP TABLE IF EXISTS Months;

@@ -14,6 +14,7 @@ import javax.xml.bind.*;
 /**
  * Runs queries against a back-end database
  */
+
 public class Query {
   // DB Connection
   private Connection conn;
@@ -212,6 +213,7 @@ public class Query {
       results.next();
       int cnt = results.getInt("cnt");
       results.close();
+      // check valid
       if (cnt != 1) {
         return "Login failed\n";
       }
